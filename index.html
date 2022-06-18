@@ -10,7 +10,7 @@
 			href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap"
 			rel="stylesheet"
 		/>
-		<script src="jquery-3.6.0.min.js" defer></script>
+
 		<script src="./app.js" defer></script>
 		<link rel="stylesheet" href="./main.css" />
 		<title>Document</title>
@@ -27,8 +27,33 @@
 				</ul>
 			</nav>
 		</header>
+		<section class="container" id="about">
+			<div class="container-header">
+				<h2>About Me</h2>
+			</div>
+			<div class="about-container">
+				<img
+					src="https://i.imgur.com/LBtEelA.png"
+					alt="Michael"
+					class="about-picture"
+				/>
+				<p class="about-p">
+					Hello, I am Michael! Let me tell you about myself. After 10 years of
+					providing customer service, I have decided to change careers and enter
+					the world of technology. Near the end of 2021, I made the decision to
+					move to LA and enter into General Assembly's Software Engineering
+					Immersive course. Since then I have picked up front-end and back-end
+					skills across several different tech stacks. More importantly, I
+					discovered my passion for learning and exploring how to use new
+					technologies. That has put me on the road towards new and exciting
+					goals with a full tank of gas.
+				</p>
+			</div>
+		</section>
 		<section class="container" id="projects">
-			<h2>Projects</h2>
+			<div class="container-header">
+				<h2>Projects</h2>
+			</div>
 			<div class="project-container">
 				<img
 					src="https://i.imgur.com/WLeNY5z.png"
@@ -101,7 +126,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="project-container flex-row">
+			<div class="project-container flex-row bottom-proj">
 				<img
 					src="https://i.imgur.com/LmNLr4c.png"
 					alt="Baby Gandalph"
@@ -122,15 +147,16 @@
 				</div>
 			</div>
 		</section>
-		<section class="container" id="about">
-			<h2>About Me</h2>
-		</section>
 		<section class="container" id="resume">
-			<h2>Resume</h2>
-			<h3><a>Download Version</a></h3>
+			<div class="container-header">
+				<h2>Resume</h2>
+				<h3><a>Click To Download Version</a></h3>
+			</div>
 		</section>
 		<section class="container" id="contact">
-			<h2>Contact Me</h2>
+			<div class="container-header">
+				<h2>Contact Me</h2>
+			</div>
 		</section>
 	</body>
 </html>
